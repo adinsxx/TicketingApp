@@ -1,0 +1,13 @@
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.exe
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.deps.json
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.runtimeconfig.json
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.runtimeconfig.dev.json
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.dll
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\bin\Debug\netcoreapp3.1\Ticketing.pdb
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.csprojAssemblyReference.cache
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.AssemblyInfoInputs.cache
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.AssemblyInfo.cs
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.csproj.CoreCompileInputs.cache
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.dll
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.pdb
+C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\obj\Debug\netcoreapp3.1\Ticketing.genruntimeconfig.cache
