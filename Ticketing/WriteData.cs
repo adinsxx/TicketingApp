@@ -1,3 +1,12 @@
+using System; 
+using System.IO;
+
+class WriteData {
+    static void Main(string[] args)
+    {
+        
+    }
+}
 // else if (choice == "2")
 //                 {
 //                     StreamWriter sw = new StreamWriter(file);

@@ -1,3 +1,12 @@
+using System; 
+using System.IO;
+
+class ReadData {
+    static void Main(string[] args)
+    {
+        
+    }
+}
 // if (choice == "1")
 // {
 // // read data from file
