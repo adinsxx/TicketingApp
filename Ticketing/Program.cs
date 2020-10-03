@@ -1,12 +1,15 @@
 ﻿using System;
+using NLog.Web; 
 using System.IO;
 
 namespace TicketingApp
 {
     class Program
     {
+        private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
         static void Main(string[] args)
         {
+            logger.Info("Program started");
             string file = "Tickets.csv";
             string choice;
             do
@@ -20,7 +23,7 @@ namespace TicketingApp
 
                 if (choice == "1")
                 {
-                                    // read data from file
+                // read data from file
                     if (File.Exists(file))
                     {
                         //ticketID accumulator
@@ -80,6 +83,9 @@ namespace TicketingApp
                     sw.Close();
                 }
             } while (choice == "1" || choice == "2");
+
+
+            logger.Info("Program ended");
         }
     }
 }
