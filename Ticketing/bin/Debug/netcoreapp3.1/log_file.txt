@@ -1,0 +1,2 @@
+2020-10-04 19:51:28.1863|INFO|TicketingApp.Program|Program started
+2020-10-04 19:52:22.9327|INFO|TicketingApp.Program|Program ended
