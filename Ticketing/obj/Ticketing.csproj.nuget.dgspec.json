@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Connor\\OneDrive - Waukesha County Technical College\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj": {}
+    "C:\\Users\\Connor\\Documents\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Connor\\OneDrive - Waukesha County Technical College\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj": {
+    "C:\\Users\\Connor\\Documents\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Connor\\OneDrive - Waukesha County Technical College\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj",
+        "projectUniqueName": "C:\\Users\\Connor\\Documents\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj",
         "projectName": "Ticketing",
-        "projectPath": "C:\\Users\\Connor\\OneDrive - Waukesha County Technical College\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj",
+        "projectPath": "C:\\Users\\Connor\\Documents\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\Ticketing.csproj",
         "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Connor\\OneDrive - Waukesha County Technical College\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\obj\\",
+        "outputPath": "C:\\Users\\Connor\\Documents\\.NET PROGRAMMING\\TicketingApp\\Ticketing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,7 +38,7 @@
           "dependencies": {
             "NLog.Web.AspNetCore": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[4.9.3, )"
             }
           },
           "imports": [
