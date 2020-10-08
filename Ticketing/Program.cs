@@ -36,11 +36,11 @@ namespace TicketingApp
                             // convert string to array
                             string[] arr = line.Split('|');
                             // display array data
-                            foreach (Ticket t in .Ticket)
-                            {
+                            // foreach (Ticket t in .Ticket)
+                            // {
                                 
-                            }
-                            Console.WriteLine(t.Display());
+                            // }
+                            // Console.WriteLine(t.Display());
                         }
                         sr.Close();
                     }
