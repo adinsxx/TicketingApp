@@ -23,7 +23,7 @@ namespace TicketingApp
 
                 if (choice == "1")
                 {
-                    Ticket incidents = new Incidents();
+
                 // read data from file
                     if (File.Exists(file))
                     {

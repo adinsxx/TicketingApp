@@ -6,17 +6,17 @@ using System.Linq;
 
 namespace TicketingApp
 {
-    class EnhancementsFile
+    class TasksFile
     {
-        public string enhancementList {get; set;}
-        public List<Enhancements> Enhancements {get; set;}
+        public string taskList {get; set;}
+        public List<Tasks> Tasks {get; set;}
 
         private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
 
-        public EnhancementsFile(string ticketListing)
+        public TasksFile(string ticketListing)
         {
-            enhancementList = ticketListing;
-            Enhancements = new List<Enhancements>();
+            taskList = ticketListing;
+            Tasks = new List<Tasks>();
 
             try
             {

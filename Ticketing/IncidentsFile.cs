@@ -8,13 +8,14 @@ namespace TicketingApp
 {
     class IncidentsFile
     {
+        public string incidentList {get; set;}
         public List<Incidents> Incidents {get; set;}
-        public string listPopulate {get; set;}
+
         private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
 
         public IncidentsFile(string ticketListing)
         {
-            listPopulate = ticketListing;
+            incidentList = ticketListing;
             Incidents = new List<Incidents>();
 
             try
