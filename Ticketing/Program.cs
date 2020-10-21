@@ -10,7 +10,9 @@ namespace TicketingApp
         static void Main(string[] args)
         {
             logger.Info("Program started");
-            string file = "Tickets.csv";
+            string incidentPathFile = "Tickets.csv";
+            string enhancementPathFile = "Enhancements.csv";
+            string taskPathFile = "Tasks.csv";
             string choice;
             do
             {
@@ -25,29 +27,29 @@ namespace TicketingApp
                 {
 
                 // read data from file
-                    if (File.Exists(file))
-                    {
-                        //ticketID accumulator
-                        // read data from file
-                        StreamReader sr = new StreamReader(file);
-                        while (!sr.EndOfStream)
-                        {
-                            string line = sr.ReadLine();
-                            // convert string to array
-                            string[] arr = line.Split('|');
-                            // display array data
-                            // foreach (Ticket t in .Ticket)
-                            // {
+                    // if (File.Exists(file))
+                    // {
+                    //     //ticketID accumulator
+                    //     // read data from file
+                    //     StreamReader sr = new StreamReader(file);
+                    //     while (!sr.EndOfStream)
+                    //     {
+                    //         string line = sr.ReadLine();
+                    //         // convert string to array
+                    //         string[] arr = line.Split('|');
+                    //         // display array data
+                    //         // foreach (Ticket t in .Ticket)
+                    //         // {
                                 
-                            // }
-                            // Console.WriteLine(t.Display());
-                        }
-                        sr.Close();
-                    }
-                    else
-                    {
-                        Console.WriteLine("File does not exist");
-                    }
+                    //         // }
+                    //         // Console.WriteLine(t.Display());
+                    //     }
+                    //     sr.Close();
+                    // }
+                    // else
+                    // {
+                    //     Console.WriteLine("File does not exist");
+                    // }
                 }
                 else if (choice == "2")
                 {
