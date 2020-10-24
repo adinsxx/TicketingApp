@@ -1,6 +1,7 @@
 ﻿using System;
 using NLog.Web; 
 using System.IO;
+using System.Linq;
 
 namespace TicketingApp
 {
@@ -13,7 +14,12 @@ namespace TicketingApp
             string incidentPathFile = "Tickets.csv";
             string enhancementPathFile = "Enhancements.csv";
             string taskPathFile = "Tasks.csv";
-            string choice;
+
+            IncidentsFile incidentsFile = new IncidentsFile(incidentPathFile);
+            EnhancementsFile enhancementsFile = new EnhancementsFile(enhancementPathFile);
+            TasksFile tasksFile = new TasksFile(taskPathFile);
+
+            string choice = "";
             do
             {
                 // ask user a question
@@ -25,35 +31,24 @@ namespace TicketingApp
 
                 if (choice == "1")
                 {
-
-                // read data from file
-                    // if (File.Exists(file))
-                    // {
-                    //     //ticketID accumulator
-                    //     // read data from file
-                    //     StreamReader sr = new StreamReader(file);
-                    //     while (!sr.EndOfStream)
-                    //     {
-                    //         string line = sr.ReadLine();
-                    //         // convert string to array
-                    //         string[] arr = line.Split('|');
-                    //         // display array data
-                    //         // foreach (Ticket t in .Ticket)
-                    //         // {
-                                
-                    //         // }
-                    //         // Console.WriteLine(t.Display());
-                    //     }
-                    //     sr.Close();
-                    // }
-                    // else
-                    // {
-                    //     Console.WriteLine("File does not exist");
-                    // }
+                    Console.WriteLine("Which data would you like to view?(INC, ENH, TASK?)");
+                    string dataChoice = Console.ReadLine();
+                    if (dataChoice == "INC"){
+                        foreach (Incidents inc in incidentsFile.Incidents)
+                        {
+                            Console.WriteLine(inc.Display());
+                        }
+                    } 
+                    else if (dataChoice == "ENH"){
+                        foreach (Enhancements enh in enhancementsFile.Enhancements)
+                        {
+                            Console.WriteLine(enh.Display());
+                        }
+                    }
                 }
                 else if (choice == "2")
                 {
-                    StreamWriter sw = new StreamWriter(file);
+                    StreamWriter sw = new StreamWriter(incidentPathFile);
                     int ticketID = 0;
                     for (int i = 0; i < 7; i++)
                     {
