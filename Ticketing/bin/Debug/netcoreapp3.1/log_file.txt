@@ -33,3 +33,4 @@
 2020-10-24 18:41:43.1814|INFO|TicketingApp.Program|Program started
 2020-10-24 18:44:24.4264|INFO|TicketingApp.Program|Program started
 2020-10-24 18:46:52.1865|INFO|TicketingApp.Program|Program started
+2020-10-25 11:15:09.0045|INFO|TicketingApp.Program|Program started

@@ -11,9 +11,9 @@ namespace TicketingApp
         static void Main(string[] args)
         {
             logger.Info("Program started");
-            string incidentPathFile = "Tickets.csv";
-            string enhancementPathFile = "Enhancements.csv";
-            string taskPathFile = "Tasks.csv";
+            string incidentPathFile = Directory.GetCurrentDirectory() + "\\Tickets.csv";
+            string enhancementPathFile = Directory.GetCurrentDirectory() +  "\\Enhancements.csv";
+            string taskPathFile = Directory.GetCurrentDirectory() + "\\Tasks.csv";
 
             IncidentsFile incidentsFile = new IncidentsFile(incidentPathFile);
             EnhancementsFile enhancementsFile = new EnhancementsFile(enhancementPathFile);
@@ -31,7 +31,7 @@ namespace TicketingApp
 
                 if (choice == "1")
                 {
-                    StreamWriter sw = new StreamWriter(incidentPathFile);
+                    Incidents incidents = new Incidents();
                     int ticketID = 0;
                     for (int i = 0; i < 7; i++)
                     {
@@ -63,9 +63,9 @@ namespace TicketingApp
                         // name of person watching this ticket
                         Console.WriteLine("Who is watching this ticket?");
                         string watching = Console.ReadLine();
-                        sw.WriteLine("{0}|{1}|{2}|{3}|{4}|{5}|{6}", ticketID, summary, status, priority, submitter, assigned, watching);
+
                     }
-                    sw.Close();
+                    incidentsFile.AddIncident()
 
                 }
                 else if (choice == "2")
