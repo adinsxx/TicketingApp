@@ -23,30 +23,13 @@ namespace TicketingApp
             do
             {
                 // ask user a question
-                Console.WriteLine("1) Read data from file.");
-                Console.WriteLine("2) Create file from data.");
+                Console.WriteLine("1) Create ticket");
+                Console.WriteLine("2) Read data from file.");
                 Console.WriteLine("Enter any other key to exit.");
                 // input response
                 choice = Console.ReadLine();
 
                 if (choice == "1")
-                {
-                    Console.WriteLine("Which data would you like to view?(INC, ENH, TASK?)");
-                    string dataChoice = Console.ReadLine();
-                    if (dataChoice == "INC"){
-                        foreach (Incidents inc in incidentsFile.Incidents)
-                        {
-                            Console.WriteLine(inc.Display());
-                        }
-                    } 
-                    else if (dataChoice == "ENH"){
-                        foreach (Enhancements enh in enhancementsFile.Enhancements)
-                        {
-                            Console.WriteLine(enh.Display());
-                        }
-                    }
-                }
-                else if (choice == "2")
                 {
                     StreamWriter sw = new StreamWriter(incidentPathFile);
                     int ticketID = 0;
@@ -83,6 +66,34 @@ namespace TicketingApp
                         sw.WriteLine("{0}|{1}|{2}|{3}|{4}|{5}|{6}", ticketID, summary, status, priority, submitter, assigned, watching);
                     }
                     sw.Close();
+
+                }
+                else if (choice == "2")
+                {
+                    Console.WriteLine("Which data would you like to view?");
+                    Console.WriteLine("1) Incidents");
+                    Console.WriteLine("2) Enhancements");
+                    Console.WriteLine("3) Tasks");
+                    string dataChoice = Console.ReadLine();
+                    if (dataChoice == "1"){
+                        foreach (Incidents inc in incidentsFile.Incidents)
+                        {
+                            Console.WriteLine(inc.Display());
+                        }
+                    } 
+                    else if (dataChoice == "2"){
+                        foreach (Enhancements enh in enhancementsFile.Enhancements)
+                        {
+                            Console.WriteLine(enh.Display());
+                        }
+                    }
+                    else if (dataChoice == "3"){
+                        foreach (Tasks task in tasksFile.Tasks)
+                        {
+                            Console.WriteLine(task.Display());
+                        }                       
+                    }
+                   
                 }
             } while (choice == "1" || choice == "2");
 
