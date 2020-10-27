@@ -65,7 +65,7 @@ namespace TicketingApp
                         string watching = Console.ReadLine();
 
                     }
-                    incidentsFile.AddIncident()
+                    incidentsFile.AddIncident(incidents);
 
                 }
                 else if (choice == "2")

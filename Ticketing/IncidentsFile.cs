@@ -42,5 +42,14 @@ namespace TicketingApp
                 logger.Error(ex.Message);
             }
         }
+        public void AddIncident(Incidents incidents){
+            incidents.ticketId = Incidents.Max(i => i.ticketId) + 1;
+            StreamWriter sw = new StreamWriter(incidentList, true);
+            sw.WriteLine($"{incidents.ticketId},{incidents.summary},{incidents.priority}, {incidents.submitter}, {incidents.assigned}, {string.Join("|", incidents.watching)}");
+            sw.Close();
+            Incidents.Add(incidents);
+            logger.Info("Incident {Id} added", incidents.ticketId);
+
+        }
     }
 }
