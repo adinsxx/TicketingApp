@@ -43,7 +43,7 @@ namespace TicketingApp
             }
         }
         public void AddIncident(Incidents incidents){
-            incidents.ticketId = Incidents.Max(i => i.ticketId) + 1;
+            incidents.ticketId = Incidents.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(incidentList, true);
             sw.WriteLine($"{incidents.ticketId},{incidents.summary},{incidents.priority}, {incidents.submitter}, {incidents.assigned}, {string.Join("|", incidents.watching)}");
             sw.Close();
