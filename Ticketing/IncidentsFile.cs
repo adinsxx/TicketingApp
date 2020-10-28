@@ -13,9 +13,9 @@ namespace TicketingApp
 
         private static NLog.Logger logger = NLogBuilder.ConfigureNLog(Directory.GetCurrentDirectory() + "\\nlog.config").GetCurrentClassLogger();
 
-        public IncidentsFile(string ticketListing)
+        public IncidentsFile(string incidentFileListing)
         {
-            incidentList = ticketListing;
+            incidentList = incidentFileListing;
             Incidents = new List<Incidents>();
 
             try
@@ -26,13 +26,19 @@ namespace TicketingApp
                 {
                     Incidents incident = new Incidents();
                     string iLine = ir.ReadLine();
-                    string[] incidentDetails = iLine.Split(',');
-                    incident.ticketId = UInt64.Parse(incidentDetails[0]);
-                    incident.summary = incidentDetails[1];
-                    incident.priority = incidentDetails[2];
-                    incident.submitter = incidentDetails[3];
-                    incident.assigned = incidentDetails[4];
-                    incident.watching = incidentDetails[5].Split('|').ToList();
+                    int idx = iLine.IndexOf('"');
+                    if (idx == -1)
+                    {
+                        string[] incidentDetails = iLine.Split(',');
+                        incident.ticketId = UInt64.Parse(incidentDetails[0]);
+                        incident.summary = incidentDetails[1];
+                        incident.status = incidentDetails[2];
+                        incident.priority = incidentDetails[3];
+                        incident.submitter = incidentDetails[4];
+                        incident.assigned = incidentDetails[5];
+                        incident.watching = incidentDetails[6].Split('|').ToList();
+                        incident.severity = incidentDetails[7];
+                    }
                     Incidents.Add(incident);
                 }
                 ir.Close();
@@ -42,14 +48,20 @@ namespace TicketingApp
                 logger.Error(ex.Message);
             }
         }
-        public void AddIncident(Incidents incidents){
-            incidents.ticketId = Incidents.Max(inc => inc.ticketId) + 1;
+        public void AddIncident(Incidents incident){
+            incident.ticketId = Incidents.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(incidentList, true);
-            sw.WriteLine($"{incidents.ticketId},{incidents.summary},{incidents.priority}, {incidents.submitter}, {incidents.assigned}, {string.Join("|", incidents.watching)}");
+            sw.WriteLine($"{incident.ticketId},{incident.summary},{incident.priority}, {incident.submitter}, {incident.assigned}, {string.Join("|", incident.watching)}");
             sw.Close();
-            Incidents.Add(incidents);
-            logger.Info("Incident {Id} added", incidents.ticketId);
+            Incidents.Add(incident);
+            logger.Info("Incident {Id} added", incident.ticketId);
 
+
+        }
+
+        internal void AddIncident()
+        {
+            throw new NotImplementedException();
         }
     }
 }

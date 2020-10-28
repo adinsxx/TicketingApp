@@ -56,3 +56,29 @@
 2020-10-27 20:47:21.8103|INFO|TicketingApp.Program|Program ended
 2020-10-27 20:47:25.4339|INFO|TicketingApp.Program|Program started
 2020-10-27 20:47:25.4676|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 20:48:27.9542|INFO|TicketingApp.Program|Program started
+2020-10-27 20:48:27.9867|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 20:52:57.4883|INFO|TicketingApp.Program|Program started
+2020-10-27 20:52:57.5192|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 20:56:35.0069|INFO|TicketingApp.Program|Program started
+2020-10-27 20:56:35.0347|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 20:57:07.0198|INFO|TicketingApp.Program|Program started
+2020-10-27 20:57:07.0466|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 21:15:43.1606|INFO|TicketingApp.Program|Program started
+2020-10-27 21:15:43.1916|INFO|TicketingApp.Program|Tickets.csv
+2020-10-27 21:16:09.8539|INFO|TicketingApp.Program|Program started
+2020-10-27 21:16:09.8842|INFO|TicketingApp.Program|Tickets.csv
+2020-10-28 09:18:04.7334|INFO|TicketingApp.Program|Program started
+2020-10-28 09:18:04.7641|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTicketing\Tickets.csv
+2020-10-28 09:18:04.7873|ERROR|TicketingApp.IncidentsFile|Could not find a part of the path 'C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTicketing\Tickets.csv'.
+2020-10-28 09:20:01.8590|INFO|TicketingApp.Program|Program started
+2020-10-28 09:20:01.8872|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTicketing\Tickets.csv
+2020-10-28 09:29:50.1470|ERROR|TicketingApp.IncidentsFile|Could not find a part of the path 'C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTicketing\Tickets.csv'.
+2020-10-28 10:03:31.8664|INFO|TicketingApp.Program|Program started
+2020-10-28 10:03:31.8955|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 12:20:03.9575|INFO|TicketingApp.Program|Program started
+2020-10-28 12:20:03.9837|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 12:22:48.8976|INFO|TicketingApp.Program|Program started
+2020-10-28 12:22:48.9245|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 17:56:39.7742|INFO|TicketingApp.Program|Program started
+2020-10-28 17:56:39.8068|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
