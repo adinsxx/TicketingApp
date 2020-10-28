@@ -42,13 +42,7 @@ namespace TicketingApp
 
                         if (tChoice == "1")
                         {    
-                            Incidents incidents = new Incidents();
-                            // ask a question
-                            Console.WriteLine("Reporting an issue? (Y/N)");
-                            // input the response
-                            string resp = Console.ReadLine().ToUpper();
-                            // if the response is anything other than "Y", stop asking
-                            if (resp != "Y") { break; }                      
+                            Incidents incidents = new Incidents();                    
                             // short summary of issue
                             Console.WriteLine("Please enter the summary of the issue:");
                             // save the summary
@@ -78,7 +72,6 @@ namespace TicketingApp
                         else if (tChoice == "2")
                         {
                             Enhancements enhancements = new Enhancements();
-                            Console.WriteLine("Reporting an issue? (Y/N)");
                             // input the response
                             string resp = Console.ReadLine().ToUpper();
                             // if the response is anything other than "Y", stop asking
@@ -127,7 +120,6 @@ namespace TicketingApp
                         else if (tChoice == "3")
                         {
                             Tasks tasks = new Tasks();
-                            Console.WriteLine("Reporting an issue? (Y/N)");
                             // input the response
                             string resp = Console.ReadLine().ToUpper();
                             // if the response is anything other than "Y", stop asking
