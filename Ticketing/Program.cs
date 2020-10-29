@@ -163,6 +163,8 @@ namespace TicketingApp
                             string projectName = Console.ReadLine();
                             Console.WriteLine("What is the due date for this task?");
                             string dueDate = Console.ReadLine();
+                            tasksFile.AddTasks(tasks);                            
+
                         }
 
 
