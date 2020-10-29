@@ -20,7 +20,7 @@ namespace TicketingApp
         }
 
         public virtual string Display(){
-        return $"ID: {ticketId}\nSummary: {summary}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {string.Join(", ", watching)}\n";
+        return $"ID: {ticketId}\nSummary: {summary}\nStatus: {status}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {string.Join(", ", watching)}\n";
         }
     }
     public class Incidents : Ticket

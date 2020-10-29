@@ -54,7 +54,7 @@ namespace TicketingApp
         {
             enhancement.ticketId = Enhancements.Count() == 0 ? 1 : Enhancements.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(enhancementList, true);
-            sw.WriteLine($"{enhancement.ticketId},{enhancement.summary},{enhancement.priority}, {enhancement.submitter}, {enhancement.assigned}, {string.Join("|", enhancement.watching)}");
+            sw.WriteLine($"{enhancement.ticketId},{enhancement.summary},{enhancement.priority}, {enhancement.submitter}, {enhancement.assigned}, {string.Join("|", enhancement.watching)}, {enhancement.software}, {enhancement.reason}, {enhancement.costEstimate}");
             sw.Close();
             Enhancements.Add(enhancement);
             logger.Info("enhancement {Id} added", enhancement.ticketId);

@@ -51,7 +51,7 @@ namespace TicketingApp
             //tiertiary conditional if count = 0, change to 1 or add 1
             incident.ticketId = Incidents.Count() == 0 ? 1 : Incidents.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(incidentList, true);
-            sw.WriteLine($"{incident.ticketId},{incident.summary},{incident.priority}, {incident.submitter}, {incident.assigned}, {string.Join("|", incident.watching)}");
+            sw.WriteLine($"{incident.ticketId},{incident.summary}, {incident.status}, {incident.priority}, {incident.submitter}, {incident.assigned}, {string.Join("|", incident.watching)}, {incident.severity}");
             sw.Close();
             Incidents.Add(incident);
             logger.Info("Incident {Id} added", incident.ticketId);

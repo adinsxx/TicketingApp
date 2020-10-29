@@ -99,3 +99,85 @@
 2020-10-28 19:51:15.6046|INFO|TicketingApp.Program|Program started
 2020-10-28 19:51:15.6376|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
 2020-10-28 19:51:15.6626|ERROR|TicketingApp.IncidentsFile|Index was outside the bounds of the array.
+2020-10-28 19:53:29.2288|INFO|TicketingApp.Program|Program started
+2020-10-28 19:53:29.2561|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 19:54:54.3570|INFO|TicketingApp.Program|Program started
+2020-10-28 19:54:54.3899|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 19:54:54.4134|ERROR|TicketingApp.IncidentsFile|Index was outside the bounds of the array.
+2020-10-28 19:58:21.1545|INFO|TicketingApp.Program|Program started
+2020-10-28 19:58:21.1861|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 19:58:21.2087|ERROR|TicketingApp.IncidentsFile|Index was outside the bounds of the array.
+2020-10-28 20:00:19.6940|INFO|TicketingApp.Program|Program started
+2020-10-28 20:00:19.7279|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:00:19.7516|ERROR|TicketingApp.IncidentsFile|Index was outside the bounds of the array.
+2020-10-28 20:01:54.8741|INFO|TicketingApp.Program|Program started
+2020-10-28 20:01:54.9076|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:01:54.9309|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:02:42.9983|INFO|TicketingApp.Program|Program started
+2020-10-28 20:02:43.0304|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:02:43.0378|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:02:43.0378|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:02:43.0685|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:03:01.1359|INFO|TicketingApp.Program|Program started
+2020-10-28 20:03:01.1703|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:03:01.1773|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:03:01.1773|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:03:01.2181|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:03:21.7876|INFO|TicketingApp.Program|Program started
+2020-10-28 20:03:21.8206|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTickets.csv
+2020-10-28 20:03:21.8206|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:03:21.8340|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:03:21.8580|ERROR|TicketingApp.IncidentsFile|Could not find file 'C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\TicketingTickets.csv'.
+2020-10-28 20:03:34.3082|INFO|TicketingApp.Program|Program started
+2020-10-28 20:03:34.3421|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:03:34.3490|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:03:34.3490|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:03:34.3820|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:04:28.1770|INFO|TicketingApp.Program|Program started
+2020-10-28 20:04:28.2090|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:04:28.2090|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:04:28.2237|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:04:28.2529|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:04:49.6930|INFO|TicketingApp.Program|Program started
+2020-10-28 20:04:49.7245|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:04:49.7387|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:04:49.7387|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:04:49.7732|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:05:39.2999|INFO|TicketingApp.Program|Program ended
+2020-10-28 20:05:44.1444|INFO|TicketingApp.Program|Program started
+2020-10-28 20:05:44.1796|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:05:44.1796|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:05:44.1948|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:05:44.2217|ERROR|TicketingApp.IncidentsFile|Input string was not in a correct format.
+2020-10-28 20:07:21.5079|INFO|TicketingApp.Program|Program started
+2020-10-28 20:07:21.5407|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:07:21.5407|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:07:21.5546|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:07:36.5209|INFO|TicketingApp.IncidentsFile|Incident 1 added
+2020-10-28 20:08:03.4649|INFO|TicketingApp.Program|Program started
+2020-10-28 20:08:03.4991|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:08:03.5063|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:08:03.5063|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:08:03.5456|ERROR|TicketingApp.IncidentsFile|Index was outside the bounds of the array.
+2020-10-28 20:11:50.2701|INFO|TicketingApp.Program|Program started
+2020-10-28 20:11:50.3025|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:11:50.3025|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:11:50.3208|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:11:50.3443|ERROR|TicketingApp.IncidentsFile|Could not find file 'C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv'.
+2020-10-28 20:12:12.2080|INFO|TicketingApp.Program|Program started
+2020-10-28 20:12:12.2420|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:12:12.2420|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:12:12.2560|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:12:24.4067|INFO|TicketingApp.IncidentsFile|Incident 1 added
+2020-10-28 20:12:51.5473|INFO|TicketingApp.IncidentsFile|Incident 2 added
+2020-10-28 20:15:03.7376|INFO|TicketingApp.Program|Program started
+2020-10-28 20:15:03.7701|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:15:03.7701|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:15:03.7849|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:15:21.8795|INFO|TicketingApp.IncidentsFile|Incident 1 added
+2020-10-28 20:15:31.7995|INFO|TicketingApp.IncidentsFile|Incident 2 added
+2020-10-28 20:15:52.4518|INFO|TicketingApp.Program|Program ended
+2020-10-28 20:15:57.2539|INFO|TicketingApp.Program|Program started
+2020-10-28 20:15:57.2877|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:15:57.2877|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:15:57.3030|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv

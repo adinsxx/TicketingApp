@@ -54,7 +54,7 @@ namespace TicketingApp
             //tiertiary conditional if count = 0, change to 1 or add 1
             task.ticketId = Tasks.Count() == 0 ? 1 : Tasks.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(taskList, true);
-            sw.WriteLine($"{task.ticketId},{task.summary},{task.priority}, {task.submitter}, {task.assigned}, {string.Join("|", task.watching)}");
+            sw.WriteLine($"{task.ticketId},{task.summary},{task.priority}, {task.submitter}, {task.assigned}, {string.Join("|", task.watching)}, {task.projectName}, {task.dueDate}");
             sw.Close();
             Tasks.Add(task);
             logger.Info("task {Id} added", task.ticketId);

@@ -14,7 +14,9 @@ namespace TicketingApp
             string incidentPathFile = Directory.GetCurrentDirectory() + "\\Tickets.csv";
             logger.Info(incidentPathFile);
             string enhancementPathFile = Directory.GetCurrentDirectory() +  "\\Enhancements.csv";
+            logger.Info(enhancementPathFile);
             string taskPathFile = Directory.GetCurrentDirectory() + "\\Tasks.csv";
+            logger.Info(taskPathFile);
 
             IncidentsFile incidentsFile = new IncidentsFile(incidentPathFile);
             EnhancementsFile enhancementsFile = new EnhancementsFile(enhancementPathFile);
