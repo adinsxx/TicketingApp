@@ -21,7 +21,6 @@ namespace TicketingApp
             try
             {
                 StreamReader ir = new StreamReader(incidentList);
-                ir.ReadLine();
                 while (!ir.EndOfStream)
                 {
                     Incidents incident = new Incidents();
@@ -49,19 +48,13 @@ namespace TicketingApp
             }
         }
         public void AddIncident(Incidents incident){
-            incident.ticketId = Incidents.Max(inc => inc.ticketId) + 1;
+            //tiertiary conditional if count = 0, change to 1 or add 1
+            incident.ticketId = Incidents.Count() == 0 ? 1 : Incidents.Max(inc => inc.ticketId) + 1;
             StreamWriter sw = new StreamWriter(incidentList, true);
             sw.WriteLine($"{incident.ticketId},{incident.summary},{incident.priority}, {incident.submitter}, {incident.assigned}, {string.Join("|", incident.watching)}");
             sw.Close();
             Incidents.Add(incident);
             logger.Info("Incident {Id} added", incident.ticketId);
-
-
-        }
-
-        internal void AddIncident()
-        {
-            throw new NotImplementedException();
         }
     }
 }

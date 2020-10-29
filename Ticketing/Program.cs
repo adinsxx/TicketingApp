@@ -122,6 +122,7 @@ namespace TicketingApp
                             string reason = Console.ReadLine();
                             Console.WriteLine("Estimated Cost?");
                             int cost = Console.Read();
+                            enhancementsFile.AddEnhancements(enhancements);                            
 
                         }
                         else if (tChoice == "3")

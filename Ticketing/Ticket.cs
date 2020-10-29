@@ -36,7 +36,7 @@ namespace TicketingApp
     public class Enhancements : Ticket{
         public string software{get; set;}
         public string reason {get; set;}
-        public int costEstimate{get; set;}
+        public UInt64 costEstimate{get; set;}
 
         public override string Display(){
         return $"ID: {ticketId}\nSummary: {summary}\nPriority: {priority}\nSubmitter: {submitter}\nAssigned: {assigned}\nWatching: {string.Join(", ", watching)}\nSoftware: {software}\nReason: {reason}\nCost: {costEstimate}";  
