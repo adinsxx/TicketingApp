@@ -38,7 +38,7 @@ namespace TicketingApp
                         enhancement.watching = enhancementDetails[6].Split('|').ToList();
                         enhancement.software = enhancementDetails[7];
                         enhancement.reason = enhancementDetails[8];
-                        enhancement.costEstimate = UInt64.Parse(enhancementDetails[9]);
+                        enhancement.costEstimate = enhancementDetails[9];
                     }
                     Enhancements.Add(enhancement);
                 }

@@ -85,24 +85,24 @@ namespace TicketingApp
                         }
                         else if (tChoice == "2")
                         {
-                            Enhancements enhancements = new Enhancements();
+                            Enhancements enhancement = new Enhancements();
                             Console.WriteLine("Please enter the summary of the issue:");
                             // save the summary
-                            string summary = Console.ReadLine();
+                             enhancement.summary = Console.ReadLine();
                             // prompt for ticket status
                             Console.WriteLine("What is the ticket status? (Open/Resolved)");
                             // save the course grade
-                            string status = Console.ReadLine();
+                            enhancement.status = Console.ReadLine();
                             // enter pritority of ticket
                             Console.WriteLine("What is the priority of this ticket? (Low/Med/High)");
                             // save priority level
-                            string priority = Console.ReadLine();
+                             enhancement.priority = Console.ReadLine();
                             // prompt name of submitter
                             Console.WriteLine("Who is submitting this ticket?");
-                            string submitter = Console.ReadLine();
+                            enhancement.submitter = Console.ReadLine();
                             // name of assigned analyst
                             Console.WriteLine("Who is assigned this ticket?");
-                            string assigned = Console.ReadLine();
+                            enhancement.assigned = Console.ReadLine();
                             // name of person watching this ticket
                             Console.WriteLine("Who is watching this ticket?");
                             string watchers;
@@ -111,20 +111,19 @@ namespace TicketingApp
                                 Console.WriteLine("Enter ticket watchers. Enter done to move on");
                                 watchers = Console.ReadLine();
                                 if (watchers != "done" && watchers.Length > 0){
-                                    enhancements.watching.Add(watchers);
+                                    enhancement.watching.Add(watchers);
                                 }
                             } while (watchers != "done");
-                            if (enhancements.watching.Count == 0){
-                                enhancements.watching.Add("(No one is watching this ticket");
+                            if (enhancement.watching.Count == 0){
+                                enhancement.watching.Add("(No one is watching this ticket)");
                             }
-                            string watching = Console.ReadLine();
                             Console.WriteLine("What software requires enhancement?");
-                            string software = Console.ReadLine();
+                            enhancement.software = Console.ReadLine();
                             Console.WriteLine("Why does this software require enhancement?");
-                            string reason = Console.ReadLine();
+                            enhancement.reason = Console.ReadLine();
                             Console.WriteLine("Estimated Cost?");
-                            int cost = Console.Read();
-                            enhancementsFile.AddEnhancements(enhancements);                            
+                            enhancement.costEstimate = Console.ReadLine();
+                            enhancementsFile.AddEnhancements(enhancement);                            
 
                         }
                         else if (tChoice == "3")
@@ -132,21 +131,21 @@ namespace TicketingApp
                             Tasks tasks = new Tasks();
                             Console.WriteLine("Please enter the summary of the issue:");
                             // save the summary
-                            string summary = Console.ReadLine();
+                            tasks.summary = Console.ReadLine();
                             // prompt for ticket status
                             Console.WriteLine("What is the ticket status? (Open/Resolved)");
                             // save the course grade
-                            string status = Console.ReadLine();
+                            tasks.status = Console.ReadLine();
                             // enter pritority of ticket
                             Console.WriteLine("What is the priority of this ticket? (Low/Med/High)");
                             // save priority level
-                            string priority = Console.ReadLine();
+                            tasks.priority = Console.ReadLine();
                             // prompt name of submitter
                             Console.WriteLine("Who is submitting this ticket?");
-                            string submitter = Console.ReadLine();
+                            tasks.submitter = Console.ReadLine();
                             // name of assigned analyst
                             Console.WriteLine("Who is assigned this ticket?");
-                            string assigned = Console.ReadLine();
+                            tasks.assigned = Console.ReadLine();
                             // name of person watching this ticket
                             Console.WriteLine("Who is watching this ticket?");
                             string watchers;
@@ -162,9 +161,9 @@ namespace TicketingApp
                                 tasks.watching.Add("(No one is watching this ticket");
                             }
                             Console.WriteLine("What is the project name associated with this task?");
-                            string projectName = Console.ReadLine();
+                            tasks.projectName = Console.ReadLine();
                             Console.WriteLine("What is the due date for this task?");
-                            string dueDate = Console.ReadLine();
+                            tasks.dueDate = Console.ReadLine();
                             tasksFile.AddTasks(tasks);                            
 
                         }

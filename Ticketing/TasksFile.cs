@@ -37,7 +37,7 @@ namespace TicketingApp
                         task.assigned = taskDetails[5];
                         task.watching = taskDetails[6].Split('|').ToList();
                         task.projectName = taskDetails[7];
-                        task.dueDate = DateTime.Parse(taskDetails[8]);
+                        task.dueDate = taskDetails[8];
                     }
                     Tasks.Add(task);
                 }

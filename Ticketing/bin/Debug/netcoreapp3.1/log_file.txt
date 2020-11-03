@@ -181,3 +181,22 @@
 2020-10-28 20:15:57.2877|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
 2020-10-28 20:15:57.2877|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
 2020-10-28 20:15:57.3030|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:33:46.2415|INFO|TicketingApp.EnhancementsFile|enhancement 1 added
+2020-10-28 20:33:46.2644|INFO|TicketingApp.Program|Program ended
+2020-10-28 20:36:38.8823|INFO|TicketingApp.Program|Program started
+2020-10-28 20:36:38.9150|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:36:38.9150|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:36:38.9296|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:37:08.3068|INFO|TicketingApp.IncidentsFile|Incident 3 added
+2020-10-28 20:37:53.1222|INFO|TicketingApp.EnhancementsFile|enhancement 1 added
+2020-10-28 20:37:53.1313|INFO|TicketingApp.Program|Program ended
+2020-10-28 20:39:17.5903|INFO|TicketingApp.Program|Program started
+2020-10-28 20:39:17.6235|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-10-28 20:39:17.6309|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-10-28 20:39:17.6309|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-10-28 20:39:17.6708|ERROR|TicketingApp.EnhancementsFile|Index was outside the bounds of the array.
+2020-11-03 10:34:03.2196|INFO|TicketingApp.Program|Program started
+2020-11-03 10:34:03.2518|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-11-03 10:34:03.2518|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-11-03 10:34:03.2694|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-11-03 10:34:03.3134|ERROR|TicketingApp.EnhancementsFile|Index was outside the bounds of the array.
