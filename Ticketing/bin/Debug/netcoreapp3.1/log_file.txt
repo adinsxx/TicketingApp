@@ -205,3 +205,4 @@
 2020-11-03 10:37:39.1284|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
 2020-11-03 10:37:39.1432|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
 2020-11-03 10:38:13.2094|INFO|TicketingApp.EnhancementsFile|enhancement 1 added
+2020-11-03 10:49:00.2629|INFO|TicketingApp.TasksFile|task 1 added

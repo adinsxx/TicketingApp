@@ -28,6 +28,7 @@ namespace TicketingApp
                 // ask user a question
                 Console.WriteLine("1) Create ticket");
                 Console.WriteLine("2) Read data from file.");
+                Console.WriteLine("3) Search for ticket");
                 Console.WriteLine("Enter any other key to exit.");
                 // input response
                 choice = Console.ReadLine();
@@ -197,7 +198,17 @@ namespace TicketingApp
                     }
                    
                 }
-            } while (choice == "1" || choice == "2");
+
+                else if (choice == "3"){
+                    Console.WriteLine("Are you looking for tickets based on status, priority, or submitter?");
+                    Console.WriteLine("1) Status");
+                    Console.WriteLine("2) Priority");
+                    Console.WriteLine("3) Submitter");
+                    string lookUp = Console.ReadLine();
+                    
+                    
+                }
+            } while (choice == "1" || choice == "2" || choice == "3");
 
 
             logger.Info("Program ended");
