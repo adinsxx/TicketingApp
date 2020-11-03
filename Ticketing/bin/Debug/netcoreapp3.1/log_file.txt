@@ -200,3 +200,8 @@
 2020-11-03 10:34:03.2518|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
 2020-11-03 10:34:03.2694|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
 2020-11-03 10:34:03.3134|ERROR|TicketingApp.EnhancementsFile|Index was outside the bounds of the array.
+2020-11-03 10:37:39.0947|INFO|TicketingApp.Program|Program started
+2020-11-03 10:37:39.1284|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tickets.csv
+2020-11-03 10:37:39.1284|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Enhancements.csv
+2020-11-03 10:37:39.1432|INFO|TicketingApp.Program|C:\Users\Connor\Documents\.NET PROGRAMMING\TicketingApp\Ticketing\Tasks.csv
+2020-11-03 10:38:13.2094|INFO|TicketingApp.EnhancementsFile|enhancement 1 added

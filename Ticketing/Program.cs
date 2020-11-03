@@ -76,7 +76,7 @@ namespace TicketingApp
                                 }
                             } while (watchers != "done");
                             if (incident.watching.Count == 0){
-                                incident.watching.Add("(No one is watching this ticket");
+                                incident.watching.Add("(No one is watching this ticket)");
                             }
                             // serverity of issue
                             Console.WriteLine("What is the serverity of this issue?");
@@ -158,7 +158,7 @@ namespace TicketingApp
                                 }
                             } while (watchers != "done");
                             if (tasks.watching.Count == 0){
-                                tasks.watching.Add("(No one is watching this ticket");
+                                tasks.watching.Add("(No one is watching this ticket)");
                             }
                             Console.WriteLine("What is the project name associated with this task?");
                             tasks.projectName = Console.ReadLine();
