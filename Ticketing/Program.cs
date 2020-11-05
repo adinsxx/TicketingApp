@@ -205,8 +205,31 @@ namespace TicketingApp
                     Console.WriteLine("2) Priority");
                     Console.WriteLine("3) Submitter");
                     string lookUp = Console.ReadLine();
-                    
-                    
+                    if (lookUp == "1"){
+                        Console.WriteLine("Please enter status (Open/Resolved)");
+                        string statusLookup = Console.ReadLine();
+                        var incidentStatus = incidentsFile.Incidents.Where(i => i.status.Contains(statusLookup)).Select(i => i.status); 
+                        var enhancementStatus = enhancementsFile.Enhancements.Where(e => e.status.Contains(statusLookup)).Select(e => e.status);
+                        var taskStatus = tasksFile.Tasks.Where(t => t.status.Contains(statusLookup)).Select(t => t.status);
+                        Console.WriteLine($"There are {incidentStatus.Count() + enhancementStatus.Count() + taskStatus.Count()} tickets with that status code");
+                    }
+                    else if (lookUp == "2"){
+                        Console.WriteLine("Please enter priority (Low/Med/High)");
+                        string priorityLookup = Console.ReadLine();
+                        var incidentPriority = incidentsFile.Incidents.Where(i => i.priority.Contains(priorityLookup)).Select(i => i.priority); 
+                        var enhancementPriority = enhancementsFile.Enhancements.Where(e => e.priority.Contains(priorityLookup)).Select(e => e.priority);
+                        var taskPriority = tasksFile.Tasks.Where(t => t.priority.Contains(priorityLookup)).Select(t => t.priority);
+                        Console.WriteLine($"There are {incidentPriority.Count() + enhancementPriority.Count() + taskPriority.Count()} tickets with that status code");
+                    }
+                    else if (lookUp == "3"){
+                        Console.WriteLine("Please enter the name of the submitter");
+                        string submitterLookup = Console.ReadLine();
+                        var incidentSub = incidentsFile.Incidents.Where(i => i.submitter.Contains(submitterLookup)).Select(i => i.submitter); 
+                        var enhancementSub = enhancementsFile.Enhancements.Where(e => e.submitter.Contains(submitterLookup)).Select(e => e.submitter);
+                        var taskSub = tasksFile.Tasks.Where(t => t.submitter.Contains(submitterLookup)).Select(t => t.submitter);
+                        Console.WriteLine($"There are {incidentSub.Count() + enhancementSub.Count() + taskSub.Count()} tickets submitted by that user");
+                    }
+                  
                 }
             } while (choice == "1" || choice == "2" || choice == "3");
 

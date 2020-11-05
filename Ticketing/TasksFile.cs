@@ -57,7 +57,7 @@ namespace TicketingApp
             sw.WriteLine($"{task.ticketId},{task.summary},{task.priority}, {task.submitter}, {task.assigned}, {string.Join("|", task.watching)}, {task.projectName}, {task.dueDate}");
             sw.Close();
             Tasks.Add(task);
-            logger.Info("task {Id} added", task.ticketId);
+            logger.Info("Task {Id} added", task.ticketId);
         }
     }
 }

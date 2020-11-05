@@ -57,7 +57,7 @@ namespace TicketingApp
             sw.WriteLine($"{enhancement.ticketId},{enhancement.summary},{enhancement.priority}, {enhancement.submitter}, {enhancement.assigned}, {string.Join("|", enhancement.watching)}, {enhancement.software}, {enhancement.reason}, {enhancement.costEstimate}");
             sw.Close();
             Enhancements.Add(enhancement);
-            logger.Info("enhancement {Id} added", enhancement.ticketId);
+            logger.Info("Enhancement {Id} added", enhancement.ticketId);
         }
     }
 }
